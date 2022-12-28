@@ -1,0 +1,110 @@
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.csproj.AssemblyReference.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.csproj.SuggestedBindingRedirects.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.Form1.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.Properties.Resources.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\bin\Debug\VectorEditor.exe.config
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\bin\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\bin\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor\obj\Debug\VectorEditor.pdb
+F:\Технологии программирования\VectorEditor\bin\Debug\VectorEditor.exe.config
+F:\Технологии программирования\VectorEditor\bin\Debug\VectorEditor.exe
+F:\Технологии программирования\VectorEditor\bin\Debug\VectorEditor.pdb
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.csproj.AssemblyReference.cache
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.csproj.SuggestedBindingRedirects.cache
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.Form1.resources
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.Properties.Resources.resources
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.exe
+F:\Технологии программирования\VectorEditor\obj\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\bin\Debug\VectorEditor.exe.config
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\bin\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\bin\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.csproj.AssemblyReference.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.csproj.SuggestedBindingRedirects.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.Form1.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.Properties.Resources.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0\obj\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\bin\Debug\VectorEditor.exe.config
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\bin\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\bin\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.csproj.AssemblyReference.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.csproj.SuggestedBindingRedirects.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.Form1.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.Properties.Resources.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия\obj\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\bin\Debug\VectorEditor.exe.config
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\bin\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\bin\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.csproj.AssemblyReference.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.csproj.SuggestedBindingRedirects.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.Form1.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.Properties.Resources.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.2.0 — копия - Copy\obj\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\bin\Debug\VectorEditor.exe.config
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\bin\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\bin\Debug\VectorEditor.pdb
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.csproj.AssemblyReference.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.csproj.SuggestedBindingRedirects.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.Form1.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.Properties.Resources.resources
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.exe
+D:\УЧЁБА\Технологии программирования\5 семестр\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.pdb
+D:\Технологии программирования\VectorEditor v.3.0 — копия\bin\Debug\VectorEditor.exe.config
+D:\Технологии программирования\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.exe
+D:\Технологии программирования\VectorEditor v.3.0 — копия\obj\Debug\VectorEditor.pdb
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\bin\Debug\VectorEditor.exe.config
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\bin\Debug\VectorEditor.exe
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\bin\Debug\VectorEditor.pdb
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.csproj.AssemblyReference.cache
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.csproj.SuggestedBindingRedirects.cache
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.Form1.resources
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.Properties.Resources.resources
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.exe
+F:\Технологии программирования\VectorEditor v.3.0 — исправленная копия\obj\Debug\VectorEditor.pdb
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\bin\Debug\VectorEditor.exe.config
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\bin\Debug\VectorEditor.exe
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\bin\Debug\VectorEditor.pdb
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.csprojAssemblyReference.cache
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.Form1.resources
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.Properties.Resources.resources
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.exe
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.pdb
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\bin\Debug\VectorEditor.exe.config
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\bin\Debug\VectorEditor.exe
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\bin\Debug\VectorEditor.pdb
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.csprojAssemblyReference.cache
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.Form1.resources
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.Properties.Resources.resources
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.exe
+C:\Users\Данил\OneDrive\Рабочий стол\5 семестр\VectorEditor v.3.1\obj\Debug\VectorEditor.pdb
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\obj\Debug\VectorEditor.csprojAssemblyReference.cache
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\obj\Debug\VectorEditor.Form1.resources
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\obj\Debug\VectorEditor.Properties.Resources.resources
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\obj\Debug\VectorEditor.csproj.GenerateResource.cache
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\obj\Debug\VectorEditor.csproj.CoreCompileInputs.cache
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\obj\Debug\VectorEditor.exe
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\obj\Debug\VectorEditor.pdb
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\bin\Debug\VectorEditor.exe.config
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\bin\Debug\VectorEditor.exe
+C:\Users\Данил\OneDrive\Рабочий стол\Учеба\Технологии Програмирования\5 Семестр\VectorEditor\bin\Debug\VectorEditor.pdb
