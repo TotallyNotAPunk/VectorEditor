@@ -8,7 +8,7 @@ using VectorEditor;
 
 namespace VectorEditor
 {
-    interface IContourProps
+        interface IContourProps
     {
         int LineWidth { get; set; }
         Color Color { get; set; }
@@ -16,21 +16,21 @@ namespace VectorEditor
     class ContourProps : Property, IContourProps
     {
         Color color = Color.Black;
-        int thickness = 5;
+        int lineWidth = 5;
 
         public ContourProps(Color _color, int _thickness)
         {
             color = _color;
-            thickness = _thickness;
+            lineWidth = _thickness;
         }
 
-        public int LineWidth { get => thickness; set => thickness = value; }
+        public int LineWidth { get => lineWidth; set => lineWidth = value; }
         public Color Color { get => color; set => color = value; }
 
         public override void Apply(GraphSystem gs)
         {
             gs.Pen.Color = color;
-            gs.Pen.Width = thickness;
+            gs.Pen.Width = lineWidth;
         }
     }
 }

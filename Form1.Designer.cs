@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonGrouping = new System.Windows.Forms.Button();
+            this.buttonUngrouping = new System.Windows.Forms.Button();
             this.FigureBox = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.buttonFillColor = new System.Windows.Forms.Button();
@@ -45,6 +47,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.buttonGrouping);
+            this.panel1.Controls.Add(this.buttonUngrouping);
             this.panel1.Controls.Add(this.FigureBox);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.buttonFillColor);
@@ -59,12 +63,36 @@
             this.panel1.Size = new System.Drawing.Size(873, 113);
             this.panel1.TabIndex = 0;
             // 
+            // buttonGrouping
+            // 
+            this.buttonGrouping.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonGrouping.Location = new System.Drawing.Point(535, 14);
+            this.buttonGrouping.Name = "buttonGrouping";
+            this.buttonGrouping.Size = new System.Drawing.Size(137, 34);
+            this.buttonGrouping.TabIndex = 23;
+            this.buttonGrouping.Text = "Группировать";
+            this.buttonGrouping.UseVisualStyleBackColor = false;
+            this.buttonGrouping.Click += new System.EventHandler(this.buttonGrouping_Click);
+            // 
+            // buttonUngrouping
+            // 
+            this.buttonUngrouping.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonUngrouping.Location = new System.Drawing.Point(535, 61);
+            this.buttonUngrouping.Name = "buttonUngrouping";
+            this.buttonUngrouping.Size = new System.Drawing.Size(137, 34);
+            this.buttonUngrouping.TabIndex = 24;
+            this.buttonUngrouping.Text = "Разгруппировать";
+            this.buttonUngrouping.UseVisualStyleBackColor = false;
+            this.buttonUngrouping.Click += new System.EventHandler(this.buttonUngrouping_Click);
+            // 
             // FigureBox
             // 
             this.FigureBox.FormattingEnabled = true;
             this.FigureBox.Items.AddRange(new object[] {
             "Line",
-            "Rect"});
+            "Rect",
+            "Ellipse"
+            });
             this.FigureBox.Location = new System.Drawing.Point(12, 34);
             this.FigureBox.Name = "FigureBox";
             this.FigureBox.Size = new System.Drawing.Size(121, 24);
@@ -162,6 +190,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.widthBar)).EndInit();
@@ -181,6 +210,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox FigureBox;
+        private System.Windows.Forms.Button buttonUngrouping;
+        private System.Windows.Forms.Button buttonGrouping;
     }
 }
 

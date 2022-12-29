@@ -8,9 +8,9 @@ using VectorEditor;
 
 namespace VectorEditor
 {
-    class RectSelection : Selection
+    class EllipseSelection : Selection
     {
-        public RectSelection(Rect _item) : base(_item)
+        public EllipseSelection(Ellipse _item) : base(_item)
         {
 
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using VectorEditor;
 
@@ -15,7 +16,7 @@ namespace VectorEditor
     }
     internal class Scene : IGrController
     {
-        public Scene(GraphSystem gs, Store store, SelectionStore selectionStore)
+        public Scene(VectorEditor.GraphSystem gs, Store store, SelectionStore selectionStore)
         {
             this.store = store;
             this.gs = gs;
@@ -27,7 +28,7 @@ namespace VectorEditor
             gs.graphics.Clear(Color.White);            
 
             foreach (var item in store)
-            {
+            {                
                 item.Draw(gs);
             }
 

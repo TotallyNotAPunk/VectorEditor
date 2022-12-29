@@ -8,11 +8,13 @@ using VectorEditor;
 
 namespace VectorEditor
 {
-    class RectSelection : Selection
+    class GroupSelection : Selection
     {
-        public RectSelection(Rect _item) : base(_item)
-        {
 
+        List<Selection> selectionList;
+        public GroupSelection(Group _item) : base(_item)
+        {
+            selectionList = new List<Selection>();
         }
     }
 }

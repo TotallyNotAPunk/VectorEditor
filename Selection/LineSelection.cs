@@ -16,7 +16,7 @@ namespace VectorEditor
 
         public override bool frameTryDragTo(int x, int y)
         {
-            if (selectionIsGrab)
+            if (IsGrab)
             {                                
                 if (this.Item.Frame.X == this.GrabPoint.X & this.Item.Frame.Y == this.GrabPoint.Y)
                 {
@@ -32,10 +32,21 @@ namespace VectorEditor
                 }
                 return true;
             }
+            else if (bodyIsActive)
+            {
+
+                Item.Frame.X += x - Item.BodyHitPoint.X;
+                Item.Frame.X2 += x - Item.BodyHitPoint.X;
+                Item.Frame.Y += y - Item.BodyHitPoint.Y;
+                Item.Frame.Y2 += y - Item.BodyHitPoint.Y;
+
+                Item.InBody(x, y);
+                return true;
+            }
             else
                 return false;
         }
-
+        
         public override void DrawSelectionMark(GraphSystem gs)
         {
             gs.graphics.DrawRectangle(gs.penSelection, new System.Drawing.Rectangle(this.Item.Frame.X - px, this.Item.Frame.Y - px, 2 * px, 2 * px));
@@ -43,26 +54,7 @@ namespace VectorEditor
 
             gs.graphics.DrawRectangle(gs.penSelection, new System.Drawing.Rectangle(this.Item.Frame.X2 - px, this.Item.Frame.Y2 - px, 2 * px, 2 * px));
             gs.graphics.FillRectangle(gs.sbSelection, new System.Drawing.Rectangle(this.Item.Frame.X2 - px, this.Item.Frame.Y2 - px, 2 * px, 2 * px));
-        }
 
-        
-        
-        public override bool TryGrab(int x, int y)
-        {
-
-            if (Item.Frame.X - px <= x & x <= Item.Frame.X + px    &    Item.Frame.Y - px <= y & y <= Item.Frame.Y + px)
-            {
-                GrabPoint= new Point(Item.Frame.X, Item.Frame.Y);
-                selectionIsGrab = true;
-                return true;
-            }
-            if (Item.Frame.X2 - px <= x & x <= Item.Frame.X2 + px    &    Item.Frame.Y2 - px <= y & y <= Item.Frame.Y2 + px)
-            {
-                GrabPoint = new Point(Item.Frame.X2, Item.Frame.Y2);
-                selectionIsGrab = true;
-                return true;
-            }
-            return false;
         }
     }
 }

@@ -10,11 +10,12 @@ namespace VectorEditor
     internal class StateStore: List<State>
     {
         public StateStore(EventHandler eh)
-        {
-            State createState= new CreateState(eh);
-            State dragState = new DragState(eh);
-            this.Add(createState);
-            this.Add(dragState);                
+        {            
+            this.Add(new CreateState(eh));
+            this.Add(new DragState(eh));
+            this.Add(new SingleSelectState(eh));
+            this.Add(new MultiSelectState(eh));
+            this.Add(new EmptyState(eh));
         }
         public State this[StateType st] => this.First(func => func.ST == st);                 
     }

@@ -66,11 +66,18 @@
     <Compile Include="Controller\EventHandler.cs" />
     <Compile Include="State\CreateState.cs" />
     <Compile Include="State\DragState.cs" />
+    <Compile Include="State\EmptyState.cs" />
+    <Compile Include="State\MultiSelectState.cs" />
+    <Compile Include="State\SingleSelectState.cs" />
+    <Compile Include="Selection\EllipseSelection.cs" />
+    <Compile Include="Figures\Ellipse.cs" />
+    <Compile Include="Figures\Group.cs" />
+    <Compile Include="Selection\GroupSelection.cs" />
     <Compile Include="Selection\LineSelection.cs" />
     <Compile Include="Property\FillProps.cs" />
     <Compile Include="Model\GraphSystem.cs" />
     <Compile Include="Property\Frame.cs" />
-    <Compile Include="GeometryObject\Figure.cs" />
+    <Compile Include="Figures\Figure.cs" />
     <Compile Include="Model\GraphItem.cs" />
     <Compile Include="Property\ContourProps.cs" />
     <Compile Include="Model\Factory.cs" />
@@ -78,10 +85,10 @@
     <Compile Include="Model\Scene.cs" />
     <Compile Include="Model\Store.cs" />
     <Compile Include="Model\Model.cs" />
-    <Compile Include="GeometryObject\Rect.cs" />
+    <Compile Include="Figures\Rect.cs" />
     <Compile Include="Property\Property.cs" />
     <Compile Include="Property\PropList.cs" />
-    <Compile Include="GeometryObject\Line.cs" />
+    <Compile Include="Figures\Line.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

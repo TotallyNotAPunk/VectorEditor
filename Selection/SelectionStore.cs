@@ -11,9 +11,8 @@ namespace VectorEditor
     {
         
         public Selection TryGrab(int x, int y) 
-        {
-
-            for (int i = this.Count -1; i >= 0; i++)
+        {           
+            for (int i = this.Count -1; i >= 0; i--)
             {
                 if (this[i].TryGrab(x, y))
                 {
@@ -28,7 +27,23 @@ namespace VectorEditor
         private Selection activeSelection;
         public Selection ActiveSelection//Grab Selection
         {
-            get { return activeSelection; }
+            get 
+            {
+                Selection _active = null;
+                int count = 0;
+
+                foreach (Selection item in this)
+                    if (item.IsGrab || item.bodyIsActive)
+                    {
+                        if (count > 1)
+                        {
+                            Console.WriteLine("Активно более 2-х фигур");
+                        }
+                        _active = item;
+                    }
+
+                    return _active;
+            }
         }
 
         public void Release()
@@ -44,10 +59,21 @@ namespace VectorEditor
         {
             foreach (Selection item in this)
             {
-                if (item.selectionIsGrab)
+                if (item.IsGrab || item.bodyIsActive)
                     item.DrawSelectionMark(gs);
             }
         }
 
+    
+        public List<GraphItem> GetSelectItems()
+        {
+            List<GraphItem> items = new List<GraphItem>();
+
+            foreach (Selection item in this)            
+                if (item.IsGrab || item.bodyIsActive)
+                    items.Add(item.Item);
+            
+            return items;
+        }       
     }
 }

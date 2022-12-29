@@ -16,12 +16,12 @@ namespace VectorEditor
     }
     internal class Model : IModel
     {
-        public Model(GraphSystem gs)
+        public Model(VectorEditor.GraphSystem gs)
         {
             Store store = new Store();
             SelectionStore selStore = new SelectionStore();
 
-            Selections = new SelectionsController(selStore);
+            Selections = new SelectionsController(selStore, store);
             factory = new Factory(store, (SelectionsController)Selections);            
             gr = new GrPropChannel(factory);
             scene = new Scene(gs, store, selStore);            

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VectorEditor;
 
 namespace VectorEditor
 {
@@ -13,19 +14,12 @@ namespace VectorEditor
         }
 
         public override StateType ST => StateType.CreateState; 
-
-        public override void MouseMove(int x, int y) { }
-
-        public override void LeftMouseUp(int x, int y) {}
-
+        
         public override void LeftMouseDown(int x, int y)
         {
-            EH.Model.Selections.ReleaseSelection();
-
             EH.Model.Factory.CreateAndGrabItem(x, y);
-            EH.ChangeStateTo(StateType.DragState); 
-            
+            EH.ChangeStateTo(StateType.DragState);
         }
-
+        
     }
 }
