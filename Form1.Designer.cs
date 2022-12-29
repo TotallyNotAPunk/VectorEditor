@@ -32,7 +32,6 @@
             this.FigureBox = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.buttonFillColor = new System.Windows.Forms.Button();
-            this.buttonClean = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.widthBar = new System.Windows.Forms.TrackBar();
             this.FillColor = new System.Windows.Forms.Panel();
@@ -49,7 +48,6 @@
             this.panel1.Controls.Add(this.FigureBox);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.buttonFillColor);
-            this.panel1.Controls.Add(this.buttonClean);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.widthBar);
             this.panel1.Controls.Add(this.FillColor);
@@ -67,7 +65,7 @@
             this.FigureBox.Items.AddRange(new object[] {
             "Line",
             "Rect"});
-            this.FigureBox.Location = new System.Drawing.Point(15, 64);
+            this.FigureBox.Location = new System.Drawing.Point(12, 34);
             this.FigureBox.Name = "FigureBox";
             this.FigureBox.Size = new System.Drawing.Size(121, 24);
             this.FigureBox.TabIndex = 22;
@@ -77,7 +75,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 43);
+            this.label8.Location = new System.Drawing.Point(12, 13);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(61, 17);
             this.label8.TabIndex = 21;
@@ -93,17 +91,6 @@
             this.buttonFillColor.Text = "Цвет заливки";
             this.buttonFillColor.UseVisualStyleBackColor = false;
             this.buttonFillColor.Click += new System.EventHandler(this.buttonFillColor_Click);
-            // 
-            // buttonClean
-            // 
-            this.buttonClean.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.buttonClean.Location = new System.Drawing.Point(15, 10);
-            this.buttonClean.Name = "buttonClean";
-            this.buttonClean.Size = new System.Drawing.Size(121, 27);
-            this.buttonClean.TabIndex = 1;
-            this.buttonClean.Text = "Очистить";
-            this.buttonClean.UseVisualStyleBackColor = false;
-            this.buttonClean.Click += new System.EventHandler(this.buttonClean_Click);
             // 
             // label1
             // 
@@ -191,7 +178,6 @@
         private System.Windows.Forms.Panel ContourColor;
         private System.Windows.Forms.Button buttonFillColor;
         private System.Windows.Forms.Button buttonContourColor;
-        private System.Windows.Forms.Button buttonClean;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox FigureBox;

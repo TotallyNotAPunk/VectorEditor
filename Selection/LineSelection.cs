@@ -43,15 +43,11 @@ namespace VectorEditor
 
             gs.graphics.DrawRectangle(gs.penSelection, new System.Drawing.Rectangle(this.Item.Frame.X2 - px, this.Item.Frame.Y2 - px, 2 * px, 2 * px));
             gs.graphics.FillRectangle(gs.sbSelection, new System.Drawing.Rectangle(this.Item.Frame.X2 - px, this.Item.Frame.Y2 - px, 2 * px, 2 * px));
-            /*
-            gs.graphics.DrawEllipse(gs.penSelection, new System.Drawing.Rectangle(this.Item.Frame.X - px, this.Item.Frame.Y - px, 2 * px, 2 * px));
-            gs.graphics.DrawEllipse(gs.penSelection, new System.Drawing.Rectangle(this.Item.Frame.X2 - px, this.Item.Frame.Y2 - px, 2 * px, 2 * px));
-            */
         }
 
         
         
-        public override bool TryGrab(int x, int y)// попытка захватить какой-либо маркер линии
+        public override bool TryGrab(int x, int y)
         {
 
             if (Item.Frame.X - px <= x & x <= Item.Frame.X + px    &    Item.Frame.Y - px <= y & y <= Item.Frame.Y + px)

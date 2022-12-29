@@ -105,5 +105,6 @@ namespace VectorEditor
             IContrl.Model.GrController.SetPort(panel2.CreateGraphics());
             IContrl.Model.GrController.Repaint();
         }
+
     }
 }
