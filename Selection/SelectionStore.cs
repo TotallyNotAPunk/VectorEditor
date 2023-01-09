@@ -30,15 +30,10 @@ namespace VectorEditor
             get 
             {
                 Selection _active = null;
-                int count = 0;
 
                 foreach (Selection item in this)
                     if (item.IsGrab || item.bodyIsActive)
                     {
-                        if (count > 1)
-                        {
-                            Console.WriteLine("Активно более 2-х фигур");
-                        }
                         _active = item;
                     }
 

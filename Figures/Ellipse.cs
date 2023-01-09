@@ -38,5 +38,11 @@ namespace VectorEditor
         {
             gs.Ellipse(Frame.X, Frame.Y, Frame.X2, Frame.Y2);
         }
+
+        public override Figure FigureCopy(Figure item, int px)
+        {
+            Ellipse copy = new Ellipse(new Frame(item.Frame.X+px, item.Frame.Y + px, item.Frame.X2 + px, item.Frame.Y2 + px), item.propList);
+            return copy;
+        }
     }
 }

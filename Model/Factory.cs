@@ -18,18 +18,42 @@ namespace VectorEditor
     {
         FigureType FigureType { get; set; }
         void CreateAndGrabItem(int x, int y);
+        void PasteItems();
+        void CopyItems();
     }
     class Factory : IFactory
     {
-        public Factory(Store store, SelectionsController sc)
+        public Factory(Store store, SelectionsController sc, Buffer b)
         {
             this.store = store;
+            this.buffer = b;
             FigureType = FigureType.Line;
             contProp = new ContourProps(System.Drawing.Color.Black, 5);
             fillProp = new FillProps(System.Drawing.Color.White);
             SelectionsController = sc;
-        }       
-
+        }
+        public void CopyItems()
+        {
+            int px = 50;
+            buffer.Clear();
+            List<GraphItem> selectItems = selectionsController.SelectionStore.GetSelectItems();
+            if (selectItems.Count > 0)
+            {
+                foreach (GraphItem item in selectItems)
+                { 
+                    buffer.Add(item.Copy(item, px)); 
+                }
+            }
+        }
+        public void PasteItems() 
+        {
+            foreach (GraphItem item in buffer) 
+            {
+                store.Add(item);
+                SelectionsController.SelectAndGrabItem(item, item.Frame.X, item.Frame.Y);
+            }
+            buffer.Clear();
+        }
         public void CreateAndGrabItem(int x, int y)
         {
             GraphItem item = CreateItem(x,y);
@@ -131,6 +155,7 @@ namespace VectorEditor
 
         public FigureType FigureType { get; set; }
         public Store store { get; set; }
+        public Buffer buffer { get; set; }
         public ContourProps contProp { get; set; }
         public FillProps fillProp { get; set; }
     }

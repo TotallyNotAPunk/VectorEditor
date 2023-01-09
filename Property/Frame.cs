@@ -44,12 +44,5 @@ namespace VectorEditor
             get { return y2; }
             set { y2 = value; }
         }
-
-
     }
-
-
-
-
-
 }

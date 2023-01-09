@@ -22,7 +22,7 @@ namespace VectorEditor
                 BodyHitPoint = new Point();
             }
         }
-
+        public abstract GraphItem Copy(GraphItem item, int px);
         public void SetInternalGroupFrame(Frame frame)
         {
             InternalGroupFrame = new InternalGroupFrame(
@@ -46,6 +46,7 @@ namespace VectorEditor
         public abstract Selection CreateSelection();
 
         public abstract bool InBody(int x, int y);
+        
     }
 
     class PointDouble

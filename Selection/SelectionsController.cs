@@ -57,6 +57,8 @@ namespace VectorEditor
             } 
         }
 
+
+
         public void SelectAndGrabItem(GraphItem item, int x, int y)
         {
             Selection s = item.CreateSelection();

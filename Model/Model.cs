@@ -20,12 +20,14 @@ namespace VectorEditor
         {
             Store store = new Store();
             SelectionStore selStore = new SelectionStore();
+            Buffer b = new Buffer();
 
             Selections = new SelectionsController(selStore, store);
-            factory = new Factory(store, (SelectionsController)Selections);            
+            factory = new Factory(store, (SelectionsController)Selections, b);            
             gr = new GrPropChannel(factory);
             scene = new Scene(gs, store, selStore);            
         }
+
 
         private GrPropChannel gr;
         IGrProperties IModel.GrProperties { get { return gr; } }

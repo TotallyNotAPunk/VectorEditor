@@ -21,6 +21,9 @@ namespace VectorEditor
         bool CtrlIsPressed { get; set; }
 
         void SetDefaultState();//Create State
+
+        void Copy();
+        void Paste();
     }
     internal class EventHandler : IEventHandler
     {
@@ -76,5 +79,8 @@ namespace VectorEditor
         void IEventHandler.Ungrouping() => State.Ungrouping();
 
         void IEventHandler.Delete() => Model.Selections.DeleteSelectedItems();
+
+        void IEventHandler.Copy() => Model.Factory.CopyItems();
+        void IEventHandler.Paste() => Model.Factory.PasteItems();
     }
 }

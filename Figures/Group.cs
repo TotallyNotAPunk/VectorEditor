@@ -42,7 +42,6 @@ namespace VectorEditor
 
         public override bool InBody(int x, int y)
         {
-
             foreach (GraphItem item in graphItems)
             {
                 if (item.InBody(x, y))
@@ -52,6 +51,16 @@ namespace VectorEditor
                 }
             }
             return false;
+        }
+        public override GraphItem Copy(GraphItem item, int px)
+        {
+            List<GraphItem>  items = new List<GraphItem>();
+            foreach (GraphItem item2 in ((Group)item).graphItems)
+            {
+                items.Add(item2.Copy(item2, px));
+            }
+            Group copy = Factory.NewGroup(items);
+            return copy;
         }
     }
 }

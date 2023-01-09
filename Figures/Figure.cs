@@ -23,6 +23,8 @@ namespace VectorEditor
         }
 
         abstract protected void DrawGeometry(GraphSystem gs);
-
+        public abstract Figure FigureCopy(Figure item, int px);
+        public override GraphItem Copy(GraphItem item, int px) 
+        {return FigureCopy((Figure)item, px);}
     }
 }

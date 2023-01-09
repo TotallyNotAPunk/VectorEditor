@@ -40,6 +40,8 @@
             this.ContourColor = new System.Windows.Forms.Panel();
             this.buttonContourColor = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonCopy = new System.Windows.Forms.Button();
+            this.buttonPaste = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.widthBar)).BeginInit();
             this.SuspendLayout();
@@ -47,6 +49,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.buttonPaste);
+            this.panel1.Controls.Add(this.buttonCopy);
             this.panel1.Controls.Add(this.buttonGrouping);
             this.panel1.Controls.Add(this.buttonUngrouping);
             this.panel1.Controls.Add(this.FigureBox);
@@ -91,8 +95,7 @@
             this.FigureBox.Items.AddRange(new object[] {
             "Line",
             "Rect",
-            "Ellipse"
-            });
+            "Ellipse"});
             this.FigureBox.Location = new System.Drawing.Point(12, 34);
             this.FigureBox.Name = "FigureBox";
             this.FigureBox.Size = new System.Drawing.Size(121, 24);
@@ -180,6 +183,28 @@
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
             // 
+            // buttonCopy
+            // 
+            this.buttonCopy.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonCopy.Location = new System.Drawing.Point(689, 15);
+            this.buttonCopy.Name = "buttonCopy";
+            this.buttonCopy.Size = new System.Drawing.Size(137, 33);
+            this.buttonCopy.TabIndex = 25;
+            this.buttonCopy.Text = "Копировать";
+            this.buttonCopy.UseVisualStyleBackColor = false;
+            this.buttonCopy.Click += new System.EventHandler(this.buttonCopy_Click);
+            // 
+            // buttonPaste
+            // 
+            this.buttonPaste.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.buttonPaste.Location = new System.Drawing.Point(689, 63);
+            this.buttonPaste.Name = "buttonPaste";
+            this.buttonPaste.Size = new System.Drawing.Size(137, 32);
+            this.buttonPaste.TabIndex = 26;
+            this.buttonPaste.Text = "Вставить";
+            this.buttonPaste.UseVisualStyleBackColor = false;
+            this.buttonPaste.Click += new System.EventHandler(this.buttonPaste_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -212,6 +237,8 @@
         private System.Windows.Forms.ComboBox FigureBox;
         private System.Windows.Forms.Button buttonUngrouping;
         private System.Windows.Forms.Button buttonGrouping;
+        private System.Windows.Forms.Button buttonPaste;
+        private System.Windows.Forms.Button buttonCopy;
     }
 }
 

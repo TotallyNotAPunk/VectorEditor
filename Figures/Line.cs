@@ -37,5 +37,10 @@ namespace VectorEditor
         {
             gs.Line(this.Frame.X, this.Frame.Y, this.Frame.X2, this.Frame.Y2);
         }
+        public override Figure FigureCopy(Figure item, int px)
+        {
+            Line copy = new Line(new Frame(item.Frame.X + px, item.Frame.Y + px, item.Frame.X2 + px, item.Frame.Y2 + px), item.propList);
+            return copy;
+        }
     }
 }
